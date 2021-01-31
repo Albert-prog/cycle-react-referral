@@ -1,0 +1,42 @@
+body {
+  font-family: "montserrat";
+}
+
+.topmenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3e468f;
+  color: white;
+  h3 {
+    padding-left: 25px;
+  }
+}
+
+.mainsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f2a905;
+  img {
+    margin-left: 10vw;
+    height: 50vh;
+    width: auto;
+  }
+  div {
+    width: 45vw;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .mainsection {
+    flex-direction: column;
+    div {
+      width: 100%;
+      margin: 15px;
+    }
+  }
+}
+h2 {
+  text-align: center;
+}
